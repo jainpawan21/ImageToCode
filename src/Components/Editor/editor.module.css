@@ -5,127 +5,124 @@
 } */
 
 .imageDiv {
-    height: 25.2%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
- background-color: #282A36;
+  height: 25.2%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: #282a36;
 }
 
 .inputDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .input {
-    padding: 10px;
-    border-radius: 2px;
-    cursor: pointer;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
-
 .imageUploadDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .imagePreview {
-    width: 180px;
-    height: 100px;
+  width: 180px;
+  height: 100px;
 }
 .code {
-    height: 67.6%;
+  height: 68%;
 }
 .run {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #494d61;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #494d61;
 }
 
 .submit {
-    color: white;
-    border-radius: 0.4rem;
-    /* width: 5rem; */
-    padding: .5rem;
-    margin: 0.4rem;
-    background: linear-gradient(90deg, #5e81f4, #1c67da);
-    border: none;
-    font-family: "Montserrat", sans-serif;
-    cursor: pointer;
+  color: white;
+  border-radius: 0.4rem;
+  /* width: 5rem; */
+  padding: 0.5rem;
+  margin: 0.4rem;
+  background: linear-gradient(90deg, #5e81f4, #1c67da);
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 .toogle {
-    font-family: "Montserrat", sans-serif;
-    display: flex;
-    margin-right: 1rem;
-    padding: 0.8rem;
-    /* width: 12rem; */
-    background-color: #373a4a;
-    justify-content: space-between;
-    cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  margin-right: 1rem;
+  padding: 0.8rem;
+  /* width: 12rem; */
+  background-color: #373a4a;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .active {
-    cursor: pointer;
-    color: white;
-    border-radius: 0.4rem;
-    padding: 2px 7px;
-    background: linear-gradient(90deg, #5e81f4, #1c67da);
+  cursor: pointer;
+  color: white;
+  border-radius: 0.4rem;
+  padding: 2px 7px;
+  background: linear-gradient(90deg, #5e81f4, #1c67da);
 }
 .normal {
-    padding: 2px 7px;
-    border-radius: 0.4rem;
-    color: #aeb7e3;
-    background-color: #494d61;
+  padding: 2px 7px;
+  border-radius: 0.4rem;
+  color: #aeb7e3;
+  background-color: #494d61;
 }
 
 .heading {
-    font-family: "Montserrat", sans-serif;
-    color: #aeb7e4;
-    padding-left: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #aeb7e4;
+  padding-left: 1rem;
 }
 
 @media screen and (max-width: 600px) {
-    .heading {
-        font-size: 0.8rem;
-        padding-left: 0.6rem;
-    }
-    .toogle {
-        margin-right: 0;
-        width: 10rem;
-        padding: 0.7rem;
-        font-size: 0.8rem;
-    }
-    /* .active {
+  .heading {
+    font-size: 0.8rem;
+    padding-left: 0.6rem;
+  }
+  .toogle {
+    margin-right: 0;
+    width: 10rem;
+    padding: 0.7rem;
+    font-size: 0.8rem;
+  }
+  /* .active {
         margin-right: 1rem;
     }
     .normal {
         margin-right: 1rem;
     } */
-    .code {
-        height: 95.6%;
-    }
-    .submit {
-        width: 4rem;
-        height: 1.8rem;
-    }
-    .imageDiv {
-        height: auto;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-        background-color: #282A36;
-    }
-    .code {
+  .code {
+    height: 96%;
+  }
+  .submit {
+    width: 4rem;
+    height: 1.8rem;
+  }
+  .imageDiv {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #282a36;
+  }
+  /* .code {
         height: 53%;
-    }
-
-    
+    } */
 }
